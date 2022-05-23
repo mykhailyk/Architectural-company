@@ -1,10 +1,14 @@
 :root {
   --main-link-color: #1b1a1a;
   --main-head-color: #1b1a1a;
+  --second-head-color: #645c55;
+  --third-head-color: #403e3b;
   --top-paragraph-color: #645c55;
-  --second-paragraph-color: #403e3b;
+  --bottom-paragraph-color: #403e3b;
   --alternate-paragraph-color: #ffffff;
-  --second-alternate-paragraph-color: #ece7e4;
+  --bottom-alternate-paragraph-color: #ece7e4;
+  --main-button-color: #ffffff;
+  --second-button-color: #1b1a1a;
 }
 
 body {
@@ -30,14 +34,6 @@ body {
   margin: -1px;
 }
 /*--------------------header-------------------*/
-.header {
-}
-.header-nav {
-}
-.nav-list {
-}
-.header-item {
-}
 .nav-link {
   font-size: 15px;
   line-height: 1.6;
@@ -47,20 +43,246 @@ body {
 .nav-link:focus {
   background: var(--main-link-color);
   border-radius: 14px;
-  color: var(--alternate-paragraph-color);
+  color: var(--main-button-color);
 }
 .nav-button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.4px;
-  background: var(--main-link-color);
+  background: var(--second-button-color);
   border-radius: 14px;
-  color: var(--alternate-paragraph-color);
+  color: var(--main-button-color);
 }
 .nav-button:hover,
 .nav-button:focus {
   border-radius: 14px;
-  background-color: var(--alternate-paragraph-color);
-  color: var(--main-link-color);
+  background-color: var(--main-button-color);
+  color: var(--second-button-color);
   border: solid 2px;
+}
+/*--------------------about-------------------*/
+.about-top-paragpaph {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--top-paragraph-color);
+}
+.about-head {
+  font-size: 64px;
+  line-height: 1.1;
+  color: var(--main-head-color);
+}
+.about-bottom-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--bottom-paragraph-color);
+}
+.about-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: var(--main-link-color);
+}
+/*--------------------firm-------------------*/
+.firm-head {
+  font-size: 32px;
+  line-height: 1.19;
+  color: var(--bottom-paragraph-color);
+}
+.firm-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--bottom-paragraph-color);
+}
+.firm-person-paragraph {
+  font-size: 17px;
+  line-height: 1.53;
+  color: var(--main-head-color);
+}
+.firm-position-paragraph {
+  font-size: 14px;
+  line-height: 1;
+  color: var(--top-paragraph-color);
+}
+/*--------------------house-------------------*/
+.house-head {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--second-head-color);
+}
+.house-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--top-paragraph-color);
+}
+/*--------------------process-------------------*/
+.process-paragraph {
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--top-paragraph-color);
+}
+.process-head {
+  font-size: 39px;
+  line-height: 1.08;
+  text-align: center;
+  color: var(--main-head-color);
+}
+.process-top-paragraph {
+  font-size: 18px;
+  line-height: 1.44;
+  text-align: center;
+  color: var(--bottom-paragraph-color);
+}
+.process-bottom-paragraph {
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--second-head-color);
+}
+/*--------------------staircase-------------------*/
+.staircase-head {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--third-head-color);
+}
+.staircase-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--top-paragraph-color);
+}
+/*--------------------clients-------------------*/
+.clients-top-paragpaph {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--bottom-alternate-paragraph-color);
+}
+.clients-head {
+  font-size: 32px;
+  line-height: 1.19;
+  color: var(--alternate-paragraph-color);
+}
+.clients-bottom-paragraph {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--bottom-alternate-paragraph-color);
+}
+/*--------------------swirling-staircase-------------------*/
+.swirling-staircase-head {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--third-head-color);
+}
+.swirling-staircase-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--top-paragraph-color);
+}
+/*--------------------projects-------------------*/
+.projects-head {
+  font-size: 39px;
+  line-height: 1.08;
+  color: var(--main-head-color);
+}
+.projects-top-pafragraph {
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--top-paragraph-color);
+}
+.projects-top-second-paragraph {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--top-paragraph-color);
+}
+.projects-third-paragraph {
+  font-size: 23px;
+  line-height: 1.3;
+  color: var(--bottom-paragraph-color);
+}
+.projects-button {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  background: var(--second-button-color);
+  border-radius: 14px;
+  color: var(--main-button-color);
+}
+.projects-button:hover,
+.projects-button:focus {
+  border-radius: 14px;
+  background-color: var(--main-button-color);
+  color: var(--second-button-color);
+  border: solid 2px;
+}
+.projects-link {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: var(--main-link-color);
+}
+/*--------------------team-------------------*/
+.team-head {
+  font-size: 32px;
+  line-height: 1.19;
+  color: var(--third-head-color);
+}
+.team-top-paragraph {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--top-paragraph-color);
+}
+.team-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: var(--main-link-color);
+}
+.team-person-paragraph {
+  font-size: 17px;
+  line-height: 1.53;
+  color: #1b1a1a;
+}
+.team-position-paragraph {
+  font-size: 14px;
+  line-height: 1;
+  color: var(--top-paragraph-color);
+}
+/*--------------------touch-------------------*/
+.touch-paragraph {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--top-paragraph-color);
+}
+.touch-head {
+  font-size: 40px;
+  line-height: 1.05;
+  color: var(--main-head-color);
+}
+.touch-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: var(--main-link-color);
+}
+/*--------------------footer-------------------*/
+.footer-paragraph {
+  font-size: 14px;
+  line-height: 1.43;
+  color: var(--top-paragraph-color);
 }
